@@ -108,11 +108,6 @@ more css
   color: var(--ff-primary);
   background: var(--clr-primary-light);
 }
-.clearfix::after , .clearfix::before{
-  content: "";
-  clear: both;
-  display: table;
-}
  /* 
  header
   */
@@ -188,7 +183,7 @@ skills section
   max-width: 17rem;
   margin: 0 auto;
  }
- .skill:hover {
+ .skill:hover{
   background: var(--clr-white);
   box-shadow: 0  2px var(--clr-primary);
  }
