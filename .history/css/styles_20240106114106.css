@@ -257,16 +257,8 @@ transform: scale(1.2)
 .about-text{
   max-width: 26rem;
   color: var(--clr-grey-5);
+  color: rebeccapurple;
 }
-
-
-@media screen and (min-width:992px) {
-  .about-info, .about-img{
-    float: left;
-    width: 50%;
-  }
-  .about-info{
-    padding-left:2rem ;
-  }
+.about-info{
+  float: left;
 }
-

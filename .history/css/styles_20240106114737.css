@@ -260,13 +260,8 @@ transform: scale(1.2)
 }
 
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:900px) {
   .about-info, .about-img{
     float: left;
-    width: 50%;
-  }
-  .about-info{
-    padding-left:2rem ;
   }
 }
-

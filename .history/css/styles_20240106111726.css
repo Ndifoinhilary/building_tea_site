@@ -240,7 +240,6 @@ skills section
   color: var(--clr-primary);
   border: 0.5rem solid var(--clr-primary);
   max-width: 30rem;
-  overflow: hidden;
 
 }
 
@@ -249,24 +248,5 @@ skills section
 }
 
 .about-picture-container:hover .about-picture{
-opacity: 0.5;
-transform: scale(1.2)
+/* opacity: 0.5; */
 }
-
-
-.about-text{
-  max-width: 26rem;
-  color: var(--clr-grey-5);
-}
-
-
-@media screen and (min-width:992px) {
-  .about-info, .about-img{
-    float: left;
-    width: 50%;
-  }
-  .about-info{
-    padding-left:2rem ;
-  }
-}
-
