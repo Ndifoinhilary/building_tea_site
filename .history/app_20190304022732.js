@@ -1,5 +1,4 @@
 const navBtn = document.getElementById("nav-btn");
-const date = document.getElementById("date").innerHTML=new Date().getFullYear();
 const navbar = document.getElementById("navbar");
 const navClose = document.getElementById("nav-close");
 

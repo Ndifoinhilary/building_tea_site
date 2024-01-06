@@ -588,11 +588,6 @@ nav bar
   -moz-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
-  transition: var(--transition);
-  -webkit-transition: var(--transition);
-  -moz-transition: var(--transition);
-  -ms-transition: var(--transition);
-  -o-transition: var(--transition);
 }
 
 
@@ -650,8 +645,3 @@ nav bar
   }
   
 }
-
-
-/*
- 
- */
