@@ -469,7 +469,6 @@ form section
 
 .contact-form:hover{
   box-shadow: 0 5px 15px rgba(0, 0, 0,0.2);
- 
 }
 
 .contact-form h3 {
@@ -484,40 +483,4 @@ form section
 .form-control{
   display: inline-block;
   width: 100%;
-  padding: 0.75rem 1rem;
-  border: none;
-  margin-bottom: 1.25rem;
-  background: var(--clr-grey-10);
-  border-radius: var(--radius);
-  text-transform: uppercase;
-  letter-spacing: var(--spacing);
-  -webkit-border-radius: var(--radius);
-  -moz-border-radius: var(--radius);
-  -ms-border-radius: var(--radius);
-  -o-border-radius: var(--radius);
-}
-
-.form-control::placeholder{
-  font-family: var(--ff-primary);
-  color: var(--clr-grey-1);
-  text-transform: uppercase;
-  letter-spacing: var(--spacing);
-}
-
-.submit-btn{
-  display: block;
-  width: 100%;
-  padding: 1rem;
-  border-bottom-left-radius: var(--radius);
-  border-bottom-right-radius: var(--radius);
-}
-
-
-
-@media screen and (min-width:992px) {
-  .contact-form, .contact-info{
-    float: left;
-    width: 50%;
-  }
-  
 }

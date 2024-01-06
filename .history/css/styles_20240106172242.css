@@ -469,7 +469,6 @@ form section
 
 .contact-form:hover{
   box-shadow: 0 5px 15px rgba(0, 0, 0,0.2);
- 
 }
 
 .contact-form h3 {
@@ -516,7 +515,6 @@ form section
 
 @media screen and (min-width:992px) {
   .contact-form, .contact-info{
-    float: left;
     width: 50%;
   }
   
