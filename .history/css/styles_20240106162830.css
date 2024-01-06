@@ -415,7 +415,7 @@ services section
   padding: 0.25rem 0.6rem;
   border-radius: 50%;
   transform: translate(-50%,50%);
-  border: 0.25rem solid var(--clr-grey-10);
+  border: 1.75rem solid var(--clr-grey-10);
   -webkit-transform: translate(-50%,50%);
   -moz-transform: translate(-50%,50%);
   -ms-transform: translate(-50%,50%);

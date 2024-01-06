@@ -388,36 +388,9 @@ services section
   .service-card{
     float: left;
     width: 45%;
-    margin-left: 5%;
+  }
+  .service-img{
+    padding: 0 1rem;
   }
   
-}
-@media screen and (min-width:992px) {
-  .service-card{
-    width: 30%;
-    margin-left: 3.333%;
-  }
-  
-}
-
-
-.service-img-container{
-  position:relative;
-}
-
-.service-icon{
-  position:absolute;
-  left: 50%;
-  bottom:0;
-  font-size:2rem;
-  color: var(--clr-primary);
-  background: var(--clr-primary-light);
-  padding: 0.25rem 0.6rem;
-  border-radius: 50%;
-  transform: translate(-50%,50%);
-  border: 0.25rem solid var(--clr-grey-10);
-  -webkit-transform: translate(-50%,50%);
-  -moz-transform: translate(-50%,50%);
-  -ms-transform: translate(-50%,50%);
-  -o-transform: translate(-50%,50%);
 }
