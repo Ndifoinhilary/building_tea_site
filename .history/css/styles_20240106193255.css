@@ -175,7 +175,7 @@ color: var(--clr-primary);
   font-size: 1.25rem;
   padding:1rem 1.75rem ;
   animation: show 5s linear 2;
-  -webkit-animation: show 5s linear 1;
+  -webkit-animation: show 5s linear 2;
 }
 
 .content-divider{
